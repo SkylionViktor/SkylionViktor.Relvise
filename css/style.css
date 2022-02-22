@@ -146,6 +146,7 @@ body {
 }
 
 .header_link {
+  pointer-events: all;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
