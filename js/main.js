@@ -9,11 +9,11 @@ brg.addEventListener('click', () => {
 	if (brg.classList.contains('active')) {
 		document.body.style.overflow = 'hidden';
 		document.querySelector('.finance_body').style.opacity = '0';
-		document.querySelector('.finance_body').style.pointerEvents: 'none';
+		document.querySelector('.finance_body').style.pointerEvents = 'none';
 	} else {
 		document.body.style.overflow = '';
 		document.querySelector('.finance_body').style.opacity = '1'
-		document.querySelector('.finance_body').style.pointerEvents: 'all';
+		document.querySelector('.finance_body').style.pointerEvents = 'all';
 	}
 });
 /* ================================== */
