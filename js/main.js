@@ -8,10 +8,12 @@ brg.addEventListener('click', () => {
 	menu.classList.toggle('visible');
 	if (brg.classList.contains('active')) {
 		document.body.style.overflow = 'hidden';
-		document.querySelector('.finance_body').style.opacity = '0'
+		document.querySelector('.finance_body').style.opacity = '0';
+		document.querySelector('.finance_body').style.visibility= 'hidden';
 	} else {
 		document.body.style.overflow = '';
 		document.querySelector('.finance_body').style.opacity = '1'
+		document.querySelector('.finance_body').style.visibility= 'visible';
 	}
 });
 /* ================================== */
